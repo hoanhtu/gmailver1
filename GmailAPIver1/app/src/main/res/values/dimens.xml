@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_item_text_size">20sp</dimen>
+    <dimen name="title_text_size">16sp</dimen>
+
+    <!-- Login activity -->
+    <dimen name="login_view_width">320dp</dimen>
+    <dimen name="login_view_padding">20dp</dimen>
+    <dimen name="login_view_height">44dp</dimen>
+    <dimen name="login_view_text_size">16sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="email_image_dimen">80dp</dimen>
+
+    <!-- Setting activity -->
+    <dimen name="container_padding_left">32dp</dimen>
+    <dimen name="content_text_size">14sp</dimen>
+    <dimen name="line_saperator">1dp</dimen>
+    <dimen name="item_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!-- New mail activity -->
+
+    <!--user image boder-->
+    <dimen name="list_detail_image_size">100dp</dimen>
+</resources>

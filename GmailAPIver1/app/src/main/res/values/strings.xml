@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Simple Email App</string>
+    <string name="search_text">Search</string>
+    <string name="title_activity_nav_bar">NavBar</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_new_tag">New Tag</string>
+    <string name="action_move">Move</string>
+    <string name="action_delete">Delete</string>
+
+
+    <!-- Login activity -->
+    <string name="email_hint">everyone@gmail.com</string>
+    <string name="password_hint">password</string>
+    <string name="content_login_button">LOG IN</string>
+
+    <!-- Menu bar activity -->
+    <string name="title_activity_menu_bar">Inbox</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Everyone</string>
+    <string name="nav_header_subtitle">everyone@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_nav_inbox">Inbox</string>
+    <string name="title_nav_sent">Sent</string>
+    <string name="title_nav_new_folder">New folder</string>
+    <string name="title_nav_setting">Setting</string>
+
+    <!-- Setting activity -->
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_about">About application</string>
+    <string name="content_about">Version 1.0</string>
+    <string name="title_contact">Contact us</string>
+    <string name="content_contact">hcmute@gmail.com</string>
+    <string name="content_logout_button">Log out</string>
+
+    <!-- Search Activity -->
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="tab_text_1">All</string>
+    <string name="tab_text_2">From</string>
+    <string name="tab_text_3">To</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="search_title">Search</string>
+
+    <!-- New mail Activity -->
+    <string name="title_activity_new_mail">New mail</string>
+    <string name="action_send">Send</string>
+    <string name="title_from">From</string>
+    <string name="title_to">To</string>
+    <string name="title_subject">Subject</string>
+    <string name="content_new_mail_hint">Content</string>
+    <string name="sign_out">Sign out</string>
+
+    <!--edit activity-->
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="settag">Tags</string>
+    <string name="dialog_setTag_title">Set tag for selected mail</string>
+    <string name="ok">OK</string>
+    <string name="enter_your_tag_here">Enter your tag here</string>
+    <string name="set_tag_selected_mails">Set tag selected mails</string>
+    <string name="select">Select</string>
+    <string name="example_content">Thân gửi các em sinh viên,
+
+Hội nghị quốc tế Công nghệ xanh và Phát triển bền vững năm 2018 (GTSD2018) được tổ chức tại trường ĐH Sư phạm Kỹ thuật Tp.HCM trong 2 ngày 23-24/11/2018.
+
+Ngày thứ nhất (23/11) của hội nghị đã diễn ra thành công tốt đẹp nhờ sự quan tâm và tham dự đông đủ của các em sinh viên, HVCH, NCS. Để tiếp nối sự thành công trên, Ban tổ chức hội nghị, Phòng Khoa học và Công nghệ trân trọng kính mời các em sinh viên, HVCH, NCS đến tham dự 2 phiên hội thảo trong ngày hôm nay (sáng thứ 7, ngày 24/11) với lịch cụ thể như sau:
+
+     Từ 8 giờ đến 10 giờ: Phiên toàn thể, tại Phòng họp 2, lầu 6, TNTT
+ Từ 10 giờ đến 12 giờ: Phiên phân ban chuyên môn, tại các phòng tầng 12, TNTT
+
+Chương trình chi tiết các em vui lòng xem file đính kèm.
+
+Trân trọng.
+    </string>
+    <string name="action_done">Done</string>
+    <string name="action_next">Next</string>
+    <string name="action_previous">Previous</string>
+    <string name="attach_file">Attach</string>
+    <string name="date_format">EEE, dd MMM yyyy HH:mm:ss Z</string>
+
+
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewMailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppTheme.ActionBar"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/title_activity_new_mail"
+        app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="14dp"
+            android:text="@string/title_to"
+            android:textSize="@dimen/title_text_size" />
+
+        <EditText
+            android:id="@+id/toEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/new_mail_view_background"
+            android:drawableEnd="@drawable/round_person_outline_24"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="14dp"
+            android:text="@string/title_from"
+            android:textSize="@dimen/title_text_size" />
+
+        <EditText
+            android:enabled="true"
+            android:id="@+id/fromEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/new_mail_view_background"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="14dp"
+            android:singleLine="true"
+            android:text="@string/title_subject"
+            android:textSize="@dimen/title_text_size" />
+
+        <EditText
+            android:id="@+id/subjectEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/new_mail_view_background"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/attach_btn"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="14dp"
+            android:singleLine="true"
+            android:text="@string/attach_file"
+            android:textSize="@dimen/title_text_size" />
+
+        <EditText
+            android:id="@+id/attachmentData"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/new_mail_view_background"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#c8c8c8" />
+
+    <EditText
+        android:id="@+id/contentNewMailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="@string/content_new_mail_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:padding="16dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

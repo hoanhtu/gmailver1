@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/title_nav_setting"
+        app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:paddingLeft="@dimen/container_padding_left"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_vertical_margin"
+            android:text="Everyone"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:id="@+id/txt_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_vertical_margin"
+            android:text="everyone@gmail.com"
+            android:textSize="@dimen/content_text_size"
+            android:textColor="@color/text_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_saperator"
+            android:background="@color/line_saperator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_vertical_margin"
+            android:text="@string/title_about"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_vertical_margin"
+            android:text="@string/content_about"
+            android:textSize="@dimen/content_text_size"
+            android:textColor="@color/text_color"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_saperator"
+            android:background="@color/line_saperator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_vertical_margin"
+            android:text="@string/title_contact"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_vertical_margin"
+            android:text="@string/content_contact"
+            android:textSize="@dimen/content_text_size"
+            android:textColor="@color/text_color"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_saperator"
+            android:background="@color/line_saperator" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:background="@android:color/transparent"
+            android:text="@string/content_logout_button"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="normal"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
